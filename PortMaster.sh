@@ -10,7 +10,7 @@ W="\e[1;37m"
 N="\e[0m"
 
 # ====================================
-# AUTO-INSTALLER (KENDİ KENDİNİ KURMA MODÜLÜ)
+# AUTO-INSTALLER (KENDİ KENDİNİ KURMA 
 # ====================================
 SCRIPT_PATH=$(realpath "$0")
 INSTALL_DIR="/usr/local/bin"
