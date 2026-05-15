@@ -11,7 +11,6 @@ N="\e[0m"
 SCRIPT_PATH=$(realpath "$0")
 INSTALL_DIR="/usr/local/bin"
 
-# Eğer script zaten /usr/local/bin içinde değilse kurulum sorusu sor
 if [[ "$SCRIPT_PATH" != "$INSTALL_DIR/portmaster" ]]; then
     clear
     echo -e "${C}===================================================${N}"
